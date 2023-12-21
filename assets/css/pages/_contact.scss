@@ -1,0 +1,94 @@
+.adress-icon span.fa {
+  color: $bluecolor;
+  font-size: 2em;
+  vertical-align: middle;
+}
+.adress-w3pvt-info {
+  a {
+    color: #777;
+    letter-spacing: 1px;
+  }
+
+  h6 {
+    font-size: 1.2em;
+    color: #3d3d3e;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 1em 0;
+  }
+}
+
+.contact-forms input,
+.contact-forms textarea,
+.contact-forms select {
+  font-size: 15px;
+  color: #000;
+  padding: 1em 1em;
+  background: #f6f6f6;
+  outline: none;
+  border: none;
+  letter-spacing: 1px;
+  border-radius: 0px;
+  outline: none !important;
+}
+
+button.sent-butnn {
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: inline-block;
+  letter-spacing: 2px;
+  outline: none;
+  color: $mycolor;
+  background: $bluecolor;
+  border-radius: 0px;
+  padding: 10px 20px;
+}
+
+p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.8em;
+  letter-spacing: 1px;
+  color: #707579;
+  font-family: "Open Sans", sans-serif;
+}
+
+.map iframe {
+  border: none;
+  outline: none;
+  height: 350px;
+  width: 100%;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.contact-grids {
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  .contact-right h4 {
+    font-size: 30px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-top: 1em;
+  }
+
+  .contact-right h5 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+
+  .contact-left-form {
+    padding: 3em;
+    background: #fff;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  }
+}

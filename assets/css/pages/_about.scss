@@ -1,0 +1,68 @@
+.banner-title {
+    background-color: #151515;
+}
+
+.choose {
+    background: url(/assets/images/choose.jpg) no-repeat center;
+    -webkit-background-size: cover;
+
+    h2.heading {
+        color: $mycolor;
+    }
+
+}
+
+.overlay-all {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.tab-main input:checked+label {
+    background: $bluecolor;
+    color: $mycolor;
+}
+
+.tab-main label {
+    display: inline-block;
+    padding: 12px 25px;
+    color: #333;
+    background: $mycolor;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.inner-sec-grid span.fa {
+    font-size: 2em;
+    color: $bluecolor;
+}
+
+.tab-main {
+    span {
+        margin-right: 0.5em;
+    }
+
+
+    .inner-w3pvt-wrap h4 {
+        font-size: 22px;
+        color: $mycolor;
+        font-weight: 600;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+    }
+
+    .inner-w3pvt-wrap p {
+        font-size: 15px;
+        color: #ccc;
+    }
+}
+
+.test-img img {
+    border-radius: 50%;
+}
+
+.testi-info h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
